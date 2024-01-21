@@ -1,17 +1,91 @@
 <html>
     <head>
-        <body>
-            <module-one>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 4</li>
-                    <li>item 5</li>
-                </ul>
-            </module-one>
-
-            <module-two>
-                <p>Removed two list items and placed list inside module-one</p>
-            </module-two>
-        </body>
+        <title>Wordle</title>
+        <link rel="stylesheet" href="main.css">
     </head>
+    <body>
+        <header>
+            <h1>Wordle</h1>
+        </header>
+        <section id="gameArea">
+             <!-- 6 guesses for 5 letter word -->
+            <div id="guess1">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div id="guess2">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div id="guess3">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div id="guess4">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div id="guess5">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+            <div id="guess6">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+            </div>
+        </section>
+        <section id="keyboard">
+            <div id="keyboard_row_1">
+                <button id="q"><strong>Q</strong></button>
+                <button id="w"><strong>W</strong></button>
+                <button id="e"><strong>E</strong></button>
+                <button id="r"><strong>R</strong></button>
+                <button id="t"><strong>T</strong></button>
+                <button id="y"><strong>Y</strong></button>
+                <button id="u"><strong>U</strong></button>
+                <button id="i"><strong>I</strong></button>
+                <button id="o"><strong>O</strong></button>
+                <button id="p"><strong>P</strong></button>
+            </div>
+            <div id="keyboard_row_2">
+                <button id="a"><strong>A</strong></button>
+                <button id="s"><strong>S</strong></button>
+                <button id="d"><strong>D</strong></button>
+                <button id="f"><strong>F</strong></button>
+                <button id="g"><strong>G</strong></button>
+                <button id="h"><strong>H</strong></button>
+                <button id="j"><strong>J</strong></button>
+                <button id="k"><strong>K</strong></button>
+                <button id="l"><strong>L</strong></button>
+            </div>
+            <div id="keyboard_row_3">
+                <button id="z"><strong>Z</strong></button>
+                <button id="x"><strong>X</strong></button>
+                <button id="c"><strong>C</strong></button>
+                <button id="v"><strong>V</strong></button>
+                <button id="b"><strong>B</strong></button>
+                <button id="n"><strong>N</strong></button>
+                <button id="m"><strong>M</strong></button> 
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
 </html>
