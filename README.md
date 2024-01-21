@@ -1,2 +1,2 @@
 # gitTutorial
-Just adding some stuff to make the file different
+Just practicing push/pull requests and merge conflicts.
